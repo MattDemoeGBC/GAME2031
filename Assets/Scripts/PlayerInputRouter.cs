@@ -14,11 +14,10 @@ public class PlayerInputRouter : MonoBehaviour
 
     public void OnMove(InputAction.CallbackContext context)
     {
-        if (!context.started)
-            return;
-
         Vector2 direction = context.ReadValue<Vector2>();
 
+        direction.y = 0;
+        direction.Normalize();
         playerMover.Move(direction);
     }
 
