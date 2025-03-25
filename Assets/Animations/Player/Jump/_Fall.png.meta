@@ -109,10 +109,10 @@ TextureImporter:
       name: _Fall_0
       rect:
         serializedVersion: 2
-        x: 38
+        x: 0
         y: 0
-        width: 31
-        height: 39
+        width: 120
+        height: 80
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -131,10 +131,10 @@ TextureImporter:
       name: _Fall_1
       rect:
         serializedVersion: 2
-        x: 158
+        x: 120
         y: 0
-        width: 31
-        height: 39
+        width: 120
+        height: 80
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -153,10 +153,10 @@ TextureImporter:
       name: _Fall_2
       rect:
         serializedVersion: 2
-        x: 278
+        x: 240
         y: 0
-        width: 31
-        height: 39
+        width: 120
+        height: 80
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -175,7 +175,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 0aadbfcb8efc5f94da017a33e738c9b9
     internalID: 0
     vertices: []
     indices: 
@@ -184,7 +184,10 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      _Fall_0: 7627258527157835838
+      _Fall_1: -2614867860447544799
+      _Fall_2: 6615151302305398152
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

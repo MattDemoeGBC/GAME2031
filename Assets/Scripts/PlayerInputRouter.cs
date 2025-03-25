@@ -21,14 +21,19 @@ public class PlayerInputRouter : MonoBehaviour
         playerMover.Move(direction);
     }
 
+    public void OnJump(InputAction.CallbackContext context)
+    {
+        if (!context.started)
+            return;
+
+        playerMover.Jump();
+    }
+
     public void OnAttack(InputAction.CallbackContext context)
     {
         if (!context.started)
             return;
 
-        bool isAttacking = context.ReadValueAsButton();
-
-        if(isAttacking)
-            playerAttacker.Attack();    
+        playerAttacker.Attack();    
     }
 }

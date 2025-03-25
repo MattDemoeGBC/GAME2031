@@ -106,10 +106,10 @@ TextureImporter:
       name: _JumpFallInbetween_0
       rect:
         serializedVersion: 2
-        x: 40
+        x: 0
         y: 0
-        width: 29
-        height: 39
+        width: 120
+        height: 80
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,10 +128,10 @@ TextureImporter:
       name: _JumpFallInbetween_1
       rect:
         serializedVersion: 2
-        x: 158
+        x: 120
         y: 0
-        width: 31
-        height: 39
+        width: 120
+        height: 80
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -150,7 +150,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: e4b6089ff06e78b42a3c796d342cd5c3
     internalID: 0
     vertices: []
     indices: 
@@ -159,7 +159,9 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      _JumpFallInbetween_0: -2490686252133560012
+      _JumpFallInbetween_1: 312475786445842499
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
