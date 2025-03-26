@@ -57,6 +57,9 @@ public class PlayerMover : MonoBehaviour
 
     public void Jump()
     {
+        if (!isGrounded)
+            return;
+
         rb.AddForce(Vector2.up * jumpForce);
         animator.SetTrigger("Jump");
     }
